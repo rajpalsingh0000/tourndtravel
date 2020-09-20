@@ -1,0 +1,331 @@
+@media only screen and (max-width: 1400px){
+    .features {
+    padding: 50px 0 100px 0;
+                }
+    .gallery {
+    padding: 70px 0;
+    FONT-VARIANT: JIS04;
+    background: #efefef;
+               }
+    .user-feedback {
+    padding: 25px 0;
+              }
+    *{
+    margin: 0px;
+    padding: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+              }
+    .box{    height: 900px;}
+    .user-review p {
+    font-size: 18px;
+        line-height: 28px;}
+    .users div {
+    height: 380px;}
+    
+    
+}
+@media only screen and (max-width: 1366px){
+  
+    .footer {
+    padding: 60px 20px 20px;
+}
+    
+
+
+@media only screen and (max-width: 1200px){
+   .feature-img img {
+    width: 100%;
+       height: 250px;}
+    .feature-details h1 {
+        font-size: 26px}
+    .feature-details p {
+    line-height: 25px;
+        font-size: 17px;}
+    .box {
+        height: 825px}
+    .features {
+        padding: 50px 0 60px 0}
+    .gallery {
+        padding: 45px 0;}
+    .gallery-box img {
+        width: 275px;}
+    .gallery {
+        padding: 30px 0}
+    .banner {
+        padding: 220px 0 215px 0}
+    .user-review p {
+    font-size: 17px;
+        line-height: 25px;}
+}
+
+    @media only screen and (max-width: 991px)
+
+{
+    .features {
+        padding: 35px 0 60px 0;}
+   .gallery-box img {
+       width: 225px;}
+    .feature-img img {
+    width: 100%;
+        height: 215px;}
+    .rating {
+        padding: 4px}
+    .price {
+    width: 37px;
+    height: 37px;
+    background: #ff5722;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 50%;
+    padding: 6px;
+    line-height: 20px;
+        font-size: 15px}
+    .rating {
+    padding: 2px;
+        bottom: 65px;}
+    .feature-details h1 {
+    font-size: 19px;
+        padding-bottom: 15px;}
+    .feature-details p {
+    line-height: 20px;
+        font-size: 17px}
+    .feature-details {
+        padding: 0px 20px 10px 20px;}
+    .facility span{
+    font-size: 16px;}
+    .box {
+        height: 720px;}
+    .banner {
+        padding: 200px 0 200px 0;}
+    .banner-highlights {
+        padding: 15px 0;}
+    .bann-1 h2{
+        font-size: 20px;}
+    .user-review h2{
+        font-size: 20px;}
+    .users div {
+        height: 405px;}
+    .footer {
+        padding: 45px 20px 20px;
+    
+    }
+    
+    
+}
+
+@media only screen and (max-width: 767px){
+    .gallery-box img {
+    width: 175px;
+        height: 175px}
+    header h1 {
+    padding-top: 170px;
+    padding-bottom: 0;
+    color: #fff;
+        font-size: 40px}
+    .feature-img img {
+    width: 100%;
+        height: 175px;}
+    .price {
+    width: 30px;
+    height: 30px;
+    background: #ff5722;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 50%;
+    padding: 5px;
+    line-height: 15px;
+    font-size: 13px;}
+    .rating {
+    padding: 0px;
+        bottom: 58px}
+    .feature-details h1 {
+        font-size: 11px;}
+    .feature-details p {
+    line-height: 15px;
+        font-size: 11px}
+    .facility span {
+        font-size: 11px;}
+    .box {
+        height: 535px;}
+    .gallery-box h2 {
+    display: block;
+    color: #fff;
+    text-shadow: -2px 2px 2px #000;
+    font-weight: 600;
+        font-size: 16px;}
+    .banner {
+        padding: 175px 0 200px 0;}
+    .bann-1 p{
+        font-size: 15px;
+    }
+    .user-review p {
+    font-size: 11px;
+        line-height: 15px}
+    .user-review h2 {
+        font-size: 17px;}
+    .users div {
+        height: 315px;}
+    h1 {
+    text-align: center;
+    padding-bottom: 15px;
+        font-size: 27px}
+   
+    .footer h4 {
+        font-size: 15px;}
+    .footer p {
+        font-size: 11px;}
+    .footer {
+        padding: 25px 20px 20px}
+    
+}
+
+@media only screen and (max-width: 500px){
+    .gallery-box img {
+    width: 105px;
+        height: 90px;}
+    header h1 {
+        font-size: 30px}
+    header img {
+        width: 70px}
+    .input-group-text {
+        padding: 8px 29px}
+   .feature-img img {
+    width: 100%;
+       height: 115px;}
+    .bann-1 h2 {
+        font-size: 17px;}
+    .bann-1 p {
+        font-size: 11px;}
+    .footers {
+        flex-wrap: wrap;}
+    .footer-log{width: 100%;
+    text-align: center;}
+    .footer-log1 {width: 100%;text-align: center}
+   .footer-logo {
+       width: 100px;}
+    .booking-btn {
+    width: 120px;
+        padding: 6px 0;}
+    .banner-highlights {
+        padding: 5px 0;}
+    .input-group {
+        width: 80%;}
+    .footer-logo {
+        width: 70px;}
+    .box {
+    height: 450px;
+        margin: 0 auto 30px auto;}
+    .feature-mainbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+        flex-wrap: wrap;}
+    .feature-img img {
+    width: 100%;
+        height: 222px;}
+    .box-last{
+        margin: 0 auto 5px auto !important;
+    }
+    .feature-details h1 {
+        font-size: 14px;}
+    .features {
+        padding: 35px 0 25px 0;}
+    .gallery-box {
+    position: relative;
+    margin-bottom: 30px;
+        text-align: center;}
+    .seclast {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 0 15px;
+        flex-wrap: wrap;}
+    .gallery-box img {
+    width: 60%;
+        height: 200px;}
+    .bann-1{width: 100%}
+    .bann-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+        flex-wrap: wrap;}
+    .users {
+       
+        flex-wrap: wrap;
+    }
+   .users div {
+    height: 255px;
+    margin-bottom: 50px}
+    .footer h4 {
+        font-size: 14px;}
+    
+    
+
+    
+    
+}
+
+@media only screen and (max-width: 320px){
+    header img {
+        width: 45px;}
+    header h1 {
+        font-size: 20px;}
+    
+   .feature-img img {
+    width: 100%;
+       height: 190px;}
+        
+.feature-details p {
+    line-height: 14px;
+    font-size: 10px;}
+    .gallery-box img {
+    width: 80%;
+        height: 190px;}
+    .gallery-box h2 {
+        font-size: 22px;}
+    .bann-1 h2 {
+        font-size: 15px;}
+    .bann-1 p {
+        font-size: 12px}
+    .feature-details h1 {
+        font-size: 14px;}
+    .user-review p {
+    font-size: 10px;
+        line-height: 12px;}
+    .user-review h2 {
+        font-size: 15px}
+    .user-feedback img {
+        bottom: -16%;}
+    .footers {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 15px;
+        flex-wrap: wrap;}
+    .footer-log{width: 100%;
+    text-align: center;}
+    .footer-logo {
+        width :50%;}
+    .input-group-text {
+        padding: 2px 12px}
+    .form-control {
+    border: 0;
+    border-radius: 30px;
+    width: 100%;
+    padding: 4px 0 4px 15px;
+        font-size: 12px}
+    h1 {
+    text-align: center;
+    padding-bottom: 15px;
+        font-size: 22px}
+    
+    .banner-highlights {
+        padding: 1px 0}
+    .footer h4 {
+        font-size: 16px;}
+    .footer p {
+        font-size: 11px}
+    
+    
+}

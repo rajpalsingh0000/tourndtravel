@@ -1,0 +1,338 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container{
+    width: 95%;
+	max-width: 1800px;
+	margin: 0 auto
+}
+html {
+    background-color: #fff;
+    color: #000;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+header{
+  height: 95vh;
+  background-image: linear-gradient( to right bottom,rgba(126, 213, 111, 0.7),rgba(40, 180, 133, 0.7)),url(../img/lucas-clara.jpg);
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+  margin: 25px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+header img{
+  width: 90px;
+  float: left;
+}
+
+header h1{
+  padding-top: 170px;
+  padding-bottom: 0;
+  color: #fff;
+  font-size: 55px;
+}
+
+.input-group{
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    margin-top: 40px;
+}
+.input-group-append{
+    display: inline-block;
+    position: absolute;
+    right: 2px;
+    top: 40%;
+    transform: translateY(-40%);
+
+}
+.form-control{
+    border: 0;
+    border-radius: 30px;
+    width: 100%;
+    padding: 10px 0 10px 15px;
+    font-size: 15px;
+}
+
+.input-group-text{
+    background-image: linear-gradient(#00ff7e,#1f3d90);
+    border: 0;
+    color: #fff;
+    border-radius: 30px;
+    padding: 8px 20px;
+}
+
+.features{
+  padding: 100px 0;
+}
+
+h1{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.feature-img img {
+    width: 100%;
+    height: 300px;
+ 
+
+}
+
+.feature-mainbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.box{
+    -webkit-box-shadow: 0 0 10px 1px rgba(37,73,214,0.8);
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.8);
+        width: 90%;
+    height: 850px;
+}
+
+.box2{
+    margin: 0 25px;
+}
+
+.price{
+    width: 50px;
+    height: 50px;
+    background: #ff5722;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 50%;
+    padding: 10px;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 100, 0.2);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 100, 0.2);
+    position: relative;
+    left: 20px;
+    top: -27px;
+}
+
+.feature-img{
+    position: relative;
+    padding: 0 20px 0 20px;;
+}
+
+.rating{
+    padding: 9px;
+    float: right;
+    background: #fff;
+    bottom: 87px;
+    right: 0;
+    position: relative;
+}
+
+.features .fa{
+    font-size: 15px;
+    color: #ff5722;
+}
+
+.feature-details{
+    padding: 0 40px 10px 40px;;
+    text-align: center;
+}
+
+.feature-details h1{
+    font-weight: 600;
+    text-align: center;
+}
+
+.feature-details p{
+    text-align: justify;
+    line-height: 30px;
+    font-size: 20px;
+    
+}
+.container{
+    margin: 0 auto;
+    max-width: 1500px;
+    width: 95%;
+}
+
+.facility{
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+.seclast{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 0 15px;
+}
+.feature-details .fa{
+    margin-right: 5px;
+}
+
+.gallery{
+    padding: 100px 0;
+    background: #efefef;
+}
+
+.gallery-box img{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.gallery-box img:hover{
+    transform: scale(1.1);
+    
+
+}
+
+.gallery-box h2{
+    display: block;
+    color: #fff;
+    text-shadow: -2px 2px 2px #000;
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gallery-box{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.banner{
+    background-image: url(../img/kamil-pitonak.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 220px 0 300px 0;
+} 
+.bann-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner-highlights{
+    padding: 30px 0;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    color: #fff;
+}
+
+.booking-btn{
+    width: 120px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    margin-top: 20px;
+    
+}
+
+.users{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 15px;
+    
+}
+
+.user-feedback{
+    padding: 100px 0;
+}
+
+
+.user-review{
+    margin: 20px;
+    text-align: center;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 100, 0.2);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 100, 0.2);
+    padding-bottom: 50px;
+    position: relative;
+    padding-bottom: 70px;
+}
+
+.user-review p{
+    padding: 30px 20px 20px 20px;
+    text-align: justify;
+}
+
+.user-feedback img{
+    
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    bottom: -12%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footers{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+
+.footer{
+    padding: 100px 20px 20px;
+    background-image: linear-gradient(#2d557d,#9610f);
+    color: #fff;
+    background-color: darkslategray;
+}
+
+.footer-logo{
+    width: 150px;
+    margin-top: 15px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.footer h4{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.footer p{
+    font-size: 15px;
+    text-align: justify;
+    padding-right: 35px;
+}
+
+.footer .row .fa{
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.footer hr{
+    margin-top: 10px;
+    background: #efefef;
+}
+
+.fa-heart{
+    margin: 0 5px;
+    color: #f44336;
+}
+.users div{
+    height: 350px;
+    width: 90%;
+}
+
+.footer .Copyright{
+    text-align: center;
+    margin-top: 10px;
+}
